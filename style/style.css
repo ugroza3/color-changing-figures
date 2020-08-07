@@ -1,0 +1,109 @@
+
+.container{
+  margin: 0 auto;
+  width: 600px;
+  height: 500px;
+  border: 1px solid red;
+  background: #e0c5f7;
+  position: relative;
+}
+.circle_1{
+  height: 15%;
+  width: 15%;
+  background-color: #ee220c;
+  border-radius: 50%;
+  position: absolute;
+  left: 25%;
+  top: 22%;
+}
+.circle_1:hover{
+  z-index: 6;
+  background-color: #0cfbec;
+  transition: 1s;
+  width: 17%;
+  height: 17%;
+}
+
+.circle_2{
+  height: 15%;
+  width: 15%;
+  background-color: #ee220c;
+  border-radius: 50%;
+  position: absolute;
+  left: 55%;
+  top: 22%;
+}
+.circle_2:hover{
+  z-index: 6;
+  background-color: #cdffb1;
+  transition: 1s;
+  width: 17%;
+  height: 17%;
+}
+
+.square_1{
+  height: 30%;
+  width:  30%;
+  background-color: #00a2ff;
+  position: absolute;
+  left: 32%;
+  top: 30%;
+  z-index: 4;
+}
+.square_1:hover{
+  height: 32%;
+  width: 32%;
+  background-color:#0b5191;
+  transition: 1s;
+  z-index: 6;
+}
+.square_2{
+  height: 20%;
+  width:  20%;
+  background-color: #f8ba00;
+  border-radius: 5px;
+  position: absolute;
+  left: 37%;
+  top: 35%;
+  z-index: 5;
+}
+.square_2:hover{
+  background-color: transparent;
+  transition: 2s;
+  border-radius: 5px;
+  position: absolute;
+  z-index: 3;
+}
+.circle_3{
+  height: 15%;
+  width: 15%;
+  background-color: #ee220c;
+  border-radius: 50%;
+  position: absolute;
+  left: 55%;
+  top: 52%;
+}
+.circle_3:hover{
+  z-index: 6;
+  background-color: #ff60a1;
+  transition: 1s;
+  width: 17%;
+  height: 17%;
+}
+
+.circle_4{
+    height: 15%;
+    width: 15%;
+    background-color: #ee220c;
+    border-radius: 50%;
+    position: absolute;
+    left: 25%;
+    top: 52%;
+}
+.circle_4:hover{
+  z-index: 6;
+  background-color: #2f0d4c;
+  transition: 1s;
+  width: 17%;
+  height: 17%;
+}
